@@ -17,3 +17,4 @@ Especially used for docker containers.
 
 ## resources
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
+* https://www.magalix.com/blog/the-best-kubernetes-tutorials?fbclid=IwAR1oOMRsG4Ug-C6yO2Fd8ogVhu2mVMKo6w5lG9-f0t0m6JxvNMSTck9PFQ4&utm_campaign=tutorialsblog&utm_medium=facebook&utm_source=social
