@@ -1,4 +1,4 @@
-# Kubernates
+# Kubernetes
 K8s containers orchestration software (alternatives: docker swarm)
 
 Especially used for docker containers. 
@@ -9,7 +9,8 @@ Especially used for docker containers.
 * Canary 
 * Blue / Green Minikube
 
-* For trainning and evaluation
+### For trainning and evaluation
+
 * need kubectl
 * kubctl proxy to opne a localhost port to connect to k8s proxy
 
