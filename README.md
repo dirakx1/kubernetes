@@ -5,11 +5,9 @@ Especially used for docker containers.
 
 ### Types of deployments
 
-* rolling 
-* canary 
-* blue / green 
-
-## minikube
+* Rolling 
+* Canary 
+* Blue / Green Minikube
 
 * For trainning and evaluation
 * need kubectl
