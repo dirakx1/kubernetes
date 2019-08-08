@@ -38,6 +38,9 @@ Kubernetes achieves this by creating two separate deployments; one for the old "
 
 A major downside of blue-green deployments is that you will need to have at least 2x the resources in your cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying both versions of the application at once.
 
+## Tools 
+* https://caylent.com/50-useful-kubernetes-tools/?utm_source=social/edgar&utm_medium=jpli/cayli&utm_campaign=kube+tools+blog
+
 
 ## Resources
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
