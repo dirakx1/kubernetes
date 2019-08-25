@@ -8,6 +8,9 @@ Especially used for docker containers.
 * need kubectl
 * kubctl proxy to opne a localhost port to connect to k8s proxy
 
+## Helm 
+* Package manager for kunernetes. 
+
 ## Installaion resources 
 
 * kubeadm 
