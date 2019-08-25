@@ -1,15 +1,15 @@
 # Kubernetes
-K8s containers orchestration software (alternatives: docker swarm)
+K8s containers orchestration software (alternatives: docker swarm, mesos)
 
 Especially used for docker containers. 
 
 ### For trainning and evaluation
 
-* need kubectl
+* Need kubectl
 * kubctl proxy to opne a localhost port to connect to k8s proxy
 
 ## Helm 
-* Package manager for kunernetes. 
+* Package manager for kubernetes. 
 
 ## Installaion resources 
 
