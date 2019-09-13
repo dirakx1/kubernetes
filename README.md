@@ -7,6 +7,7 @@ Especially used for docker containers.
 
 * Need kubectl
 * kubctl proxy to opne a localhost port to connect to k8s proxy
+* minikube
 
 ## Helm 
 * Package manager for kubernetes. 
@@ -40,6 +41,10 @@ Rolling updates are ideal because they allow you to deploy an application slowly
 Kubernetes achieves this by creating two separate deployments; one for the old "blue" version and one for the new "green" version. Use your existing hello deployment for the "blue" version. The deployments will be accessed via a Service which will act as the router. Once the new "green" version is up and running, you'll switch over to using that version by updating the Service.
 
 A major downside of blue-green deployments is that you will need to have at least 2x the resources in your cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying both versions of the application at once.
+
+## APM (Applicstion Process Management) y ALM (Application Lifecycle Management)  
+* see lifecycle management for kubernetes. 
+
 
 ## Tools 
 * https://caylent.com/50-useful-kubernetes-tools/?utm_source=social/edgar&utm_medium=jpli/cayli&utm_campaign=kube+tools+blog
