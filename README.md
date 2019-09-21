@@ -1,7 +1,6 @@
 # Kubernetes
-K8s containers orchestration software (alternatives: docker swarm, mesos)
 
-Especially used for docker containers. 
+Kubernetes is an open source system for managing containerized applications across multiple hosts; providing basic mechanisms for deployment, maintenance, and scaling of applications.(alternatives: docker swarm, mesos)
 
 ### For trainning and evaluation
 
