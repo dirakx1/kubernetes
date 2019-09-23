@@ -13,7 +13,7 @@ Kubernetes builds upon a decade and a half of experience at Google running produ
 ## Helm 
 * Package manager for kubernetes. 
 
-## Installaion resources 
+## Installation resources 
 
 * kubeadm 
 * kubespray
