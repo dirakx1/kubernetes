@@ -50,6 +50,10 @@ A major downside of blue-green deployments is that you will need to have at leas
 ## APM (Applicstion Process Management) y ALM (Application Lifecycle Management)  
 * see lifecycle management for kubernetes. 
 
+## Ci/Cd 
+
+* Jenkins plugins (see Jenkins)
+* Spinnaker. 
 
 ## Tools 
 * https://caylent.com/50-useful-kubernetes-tools/?utm_source=social/edgar&utm_medium=jpli/cayli&utm_campaign=kube+tools+blog
