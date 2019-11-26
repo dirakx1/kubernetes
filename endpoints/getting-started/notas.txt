@@ -1,0 +1,12 @@
+# init 
+set the cluster permissions / project etc 
+enable initial apis..google.apis.com
+set users permissions  
+enable api after created (custom api must be added to project)
+
+# deleting
+gcloud endpoints services delete [SERVICE_NAME]
+delete deployments with kubectl 
+delete services with  kubectl
+
+
