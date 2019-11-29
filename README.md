@@ -64,7 +64,7 @@ Services provide network connectivity to Pods that work uniformly across cluster
 ## Tools 
 * https://caylent.com/50-useful-kubernetes-tools/?utm_source=social/edgar&utm_medium=jpli/cayli&utm_campaign=kube+tools+blog
 
-## usage
+## Usage
 
 ```
 kubectl exec -it #nameofpod COMMAND
