@@ -48,7 +48,7 @@ Kubernetes achieves this by creating two separate deployments; one for the old "
 A major downside of blue-green deployments is that you will need to have at least 2x the resources in your cluster necessary to host your application. Make sure you have enough resources in your cluster before deploying both versions of the application at once.
 
 ## APM (Application Process Management) y ALM (Application Lifecycle Management)  
-* see lifecycle management for kubernetes. 
+* See lifecycle management for kubernetes. 
 
 ## Service discovery
 
