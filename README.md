@@ -70,7 +70,17 @@ Services provide network connectivity to Pods that work uniformly across cluster
 kubectl exec -it #nameofpod COMMAND
 ```
 
+## Patterns
+
+### Sidecar pattern
+
+The sidecar container extends and works with the primary container. This pattern is best used when there is a clear difference between a primary container and any secondary tasks that need to be done for it.
+
+For example, a web server container (a primary application) that needs to have its logs parsed and forwarded to log storage (a secondary task) may use a sidecar container that takes care of the log forwarding. This same sidecar container can also be used in other places in the stack to forward logs for other web servers or even other applications.
+
+
 ## Resources
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
 * https://www.magalix.com/blog/the-best-kubernetes-tutorials?fbclid=IwAR1oOMRsG4Ug-C6yO2Fd8ogVhu2mVMKo6w5lG9-f0t0m6JxvNMSTck9PFQ4&utm_campaign=tutorialsblog&utm_medium=facebook&utm_source=social
 * https://learnk8s.io/production-best-practices/?fbclid=IwAR2no6bvDL15pGd0OGTp-P75UNE7ll2m3Oh1mHG1pTJQ_x6-0POrnyNkMcs
+* https://www.weave.works/blog/container-design-patterns-for-kubernetes/
