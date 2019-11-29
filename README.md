@@ -30,12 +30,14 @@ Deployments support updating images to a new version through a rolling update me
 Rollback an update
 kubectl rollout undo deployment/hello
 
-Verify 
+Verify:
+```
 kubectl rollout history deployment/hello
-
-Verify pods 
+```
+Verify pods:
+```
 kubectl get pods -o jsonpath --template='{range .items[*]}{.metadata.name}{"\t"}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
-
+```
 
 ### Create a canary deployment
 When you want to test a new deployment in production with a subset of your users, use a canary deployment. Canary deployments allow you to release a change to a small subset of your users to mitigate risk associated with new releases.
@@ -64,7 +66,9 @@ Services provide network connectivity to Pods that work uniformly across cluster
 
 ## usage
 
-* kubectl exec -it #nameofpod COMMAND
+```
+kubectl exec -it #nameofpod COMMAND
+```
 
 ## Resources
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
