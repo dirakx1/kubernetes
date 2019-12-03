@@ -8,6 +8,11 @@ Kubernetes is an open source system for managing containerized applications acro
 
 Kubernetes builds upon a decade and a half of experience at Google running production workloads at scale using a system called Borg, combined with best-of-breed ideas and practices from the community.
 
+## Fundamental objects ##
+
+### Pods ###
+A Pod is the basic building block in Kubernetes and is the smallest deployable unit that typically represents a running process on your cluster. Pods encapsulate an application’s container storage resources, a unique network IP and the configuration options on how the container should run. All containers that are part of a Pod run on the same Kubernetes node.
+
 ### For trainning and evaluation
 
 * Need kubectl
