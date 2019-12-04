@@ -96,6 +96,13 @@ The sidecar container extends and works with the primary container. This pattern
 
 For example, a web server container (a primary application) that needs to have its logs parsed and forwarded to log storage (a secondary task) may use a sidecar container that takes care of the log forwarding. This same sidecar container can also be used in other places in the stack to forward logs for other web servers or even other applications.
 
+## Related native projects
+
+* Prometheus for monitoring
+* Envoy for service mesh
+* CoreDNS for service discovery
+* containerd for container runtime
+* Fluentd for logging
 
 ## Resources
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
