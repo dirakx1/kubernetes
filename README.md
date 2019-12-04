@@ -8,6 +8,15 @@ Kubernetes is an open source system for managing containerized applications acro
 
 Kubernetes builds upon a decade and a half of experience at Google running production workloads at scale using a system called Borg, combined with best-of-breed ideas and practices from the community.
 
+
+## Features ##
+
+* Automatic bin packing: Kubernetes automatically schedules containers based on resource needs and constraints, to maximize utilization without sacrificing availability.
+* Self-healing: Kubernetes automatically replaces and reschedules containers from failed nodes. It kills and restarts containers unresponsive to health checks, based on existing rules/policy. It also prevents traffic from being routed to unresponsive containers.
+* Horizontal scaling: With Kubernetes applications are scaled manually or automatically based on CPU or custom metrics utilization.
+* Service discovery and Load balancing: Containers receive their own IP addresses from Kubernetes, white it assigns a single Domain Name System (DNS) name to a set of containers to aid in load-balancing requests across the containers of the set.
+
+
 ## Fundamental objects ##
 
 ### Pods ###
