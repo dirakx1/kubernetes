@@ -6,7 +6,7 @@ Layer description:
 
 Architecture:
 
-<img src="./Kubernetes_Architecture.png">
+<img src="./Kubernetes_Architecture.jpg">
 
 Kubernetes is an open source system for managing containerized applications across multiple hosts; providing basic mechanisms for deployment, maintenance, and scaling of applications.(alternatives: docker swarm, apache mesos)
 
