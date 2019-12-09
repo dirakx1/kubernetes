@@ -1,10 +1,10 @@
 # Kubernetes
 
-"Layer description":
+`Layer description`:
 
 <img src="./kubernetes.png">
 
-"Architecture":
+`Architecture`:
 
 <img src="./Kubernetes_Architecture.png">
 
