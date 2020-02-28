@@ -1,0 +1,5 @@
+# References
+
+* https://estl.tech/deploying-redis-with-persistence-on-google-kubernetes-engine-c1d60f70a043
+
+
