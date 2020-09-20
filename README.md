@@ -38,7 +38,7 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 
 ## Helm 
 * Package manager for kubernetes.
-* Release manger (helm v2 and helv version3 are not compatible beacuase 3 does not have tiller). 
+* Release manger (helm v2 and helm version3 are not compatible becuase v3 does not have tiller). 
 
 ## Installation resources 
 
