@@ -113,4 +113,5 @@ For example, a web server container (a primary application) that needs to have i
 * https://github.com/kelseyhightower/kubernetes-the-hard-way
 * https://www.magalix.com/blog/the-best-kubernetes-tutorials?fbclid=IwAR1oOMRsG4Ug-C6yO2Fd8ogVhu2mVMKo6w5lG9-f0t0m6JxvNMSTck9PFQ4&utm_campaign=tutorialsblog&utm_medium=facebook&utm_source=social
 * https://learnk8s.io/production-best-practices/?fbclid=IwAR2no6bvDL15pGd0OGTp-P75UNE7ll2m3Oh1mHG1pTJQ_x6-0POrnyNkMcs
+* https://blog.kloia.com/comparison-of-the-kubernetes-engines-bb6fe6049333
 * https://www.weave.works/blog/container-design-patterns-for-kubernetes/
