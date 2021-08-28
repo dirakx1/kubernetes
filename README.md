@@ -33,12 +33,12 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 ### For trainning and evaluation
 
 * Need kubectl
-* kubctl proxy to opne a localhost port to connect to k8s proxy
+* kubctl proxy to open a localhost port to connect to k8s proxy
 * minikube
 
 ## Helm 
 * Package manager for kubernetes.
-* Release manger (helm v2 and helm version3 are not compatible becuase v3 does not have tiller). 
+* Release manager (helm v2 and helm version3 are not compatible becuase v3 does not have tiller). 
 
 ## Installation resources 
 
