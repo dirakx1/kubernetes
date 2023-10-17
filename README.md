@@ -101,6 +101,9 @@ The sidecar container extends and works with the primary container. This pattern
 
 For example, a web server container (a primary application) that needs to have its logs parsed and forwarded to log storage (a secondary task) may use a sidecar container that takes care of the log forwarding. This same sidecar container can also be used in other places in the stack to forward logs for other web servers or even other applications.
 
+### More on patterns
+* https://www.linkedin.com/pulse/discover-12-kubernetes-design-patterns-empower-you-achieve-shaan-s/
+
 ## Related native projects
 
 * Prometheus for monitoring
