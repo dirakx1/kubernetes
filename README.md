@@ -43,8 +43,8 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 ## Installation resources 
 
 * kubeadm 
-* kubespray
-* kobs
+* kubespray (qnsible based)
+* kops
 
 ## Deployment schemes
 
