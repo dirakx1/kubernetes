@@ -47,6 +47,9 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 * kops (to provision clusters)
 * Kustomize (to apply various yaml at the same time)
 
+## Testing
+* Load tsting with locust
+
 ## Deployment schemes
 
 ### Rolling update
