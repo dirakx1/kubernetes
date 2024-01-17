@@ -123,3 +123,5 @@ For example, a web server container (a primary application) that needs to have i
 * https://blog.kloia.com/comparison-of-the-kubernetes-engines-bb6fe6049333
 * https://www.weave.works/blog/container-design-patterns-for-kubernetes/
 * https://medium.com/geekculture/deploy-an-aws-eks-cluster-using-terraform-965fe680f9d4 (EKS)
+* https://medium.com/@dksoni4530/kubernetes-interview-questions-answers-part-2-5f43e4c35fe4
+  
