@@ -1,10 +1,10 @@
 # [START swagger]
 swagger: "2.0"
 info:
-  description: "Terpel app Cloud Endpoints API"
-  title: "API Endpoints TERPEL DEV"
+  description: "App Cloud Endpoints API"
+  title: "API Endpoints  DEV"
   version: "1.0.0"
-host: "apis.dev.appterpel.cloud.terpel.com"
+host: "apis.dev.cloud.com"
 # [END swagger]
 basePath: "/"
 consumes:
