@@ -46,6 +46,7 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 * kubespray (ansible based to provision clusters)
 * kops (to provision clusters)
 * Kustomize (to apply various yaml at the same time)
+* Karpenter (for scalability)
 
 ## Testing
 * Load testing with locust
@@ -55,7 +56,9 @@ A Pod is the basic building block in Kubernetes and is the smallest deployable u
 ### Rolling update
 Deployments support updating images to a new version through a rolling update mechanism. When a Deployment is updated with a new version, it creates a new ReplicaSet and slowly increases the number of replicas in the new ReplicaSet as it decreases the replicas in the old ReplicaSet.
 Rollback an update
+```
 kubectl rollout undo deployment/hello
+```
 
 Verify:
 ```
@@ -84,7 +87,8 @@ A major downside of blue-green deployments is that you will need to have at leas
 Services provide network connectivity to Pods that work uniformly across clusters. Service discovery is the actual process of figuring out how to connect to a service.
 
 ## CI/CD 
-
+* Github actions
+* Gitlab Pipelines
 * Jenkins plugins (see Jenkins)
 * Spinnaker. 
 
